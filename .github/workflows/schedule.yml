@@ -1,0 +1,15 @@
+on:
+  schedule:
+    - cron: "0 2 * * 1" # Runs every Monday at 2:00 AM UTC
+
+jobs:
+  daily_task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run daily task
+        run: |
+          echo "Running daily task..."
+          # Add your daily task commands here
