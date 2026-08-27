@@ -1,0 +1,57 @@
+# This line is a username
+name: Abdallah
+
+# Scaler Datatypes ----> This is the basic data types in YAML
+age: 30
+salary: 5000.50
+user_name: abdallah123
+employment_date: 2020-01-15
+
+# This pipe character allows for multi-line strings in YAML. It preserves line breaks and formatting, making it useful for long messages or descriptions.
+long_message: |
+  This is a long message that spans multiple lines.
+  It can be used to provide detailed information or instructions.
+  YAML allows for multi-line strings using the pipe (|) character.
+
+# Collections ---> Map and List
+
+employee:
+  name: Abdallah
+  age: 30
+  position: Software Engineer
+  skills:
+    - Python
+    - JavaScript
+    - YAML
+
+# Multi map
+employees:
+  - name: Abdallah
+    age: 30
+    position: Software Engineer
+    skills:
+      - Python
+      - JavaScript
+      - YAML
+  - name: Sarah
+    age: 28
+    position: Data Scientist
+    skills:
+      - R
+      - SQL
+      - Machine Learning
+  - name: John
+    age: 35
+    position: DevOps Engineer
+    skills:
+      - Docker
+      - Kubernetes
+      - CI/CD
+
+# List
+
+servers:
+  - name: Server 1
+    ip: 192.168.1.100
+  - name: Server 2
+    ip: 192.168.1.101
