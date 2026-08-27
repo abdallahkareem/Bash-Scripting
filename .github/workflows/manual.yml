@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+
+
+jobs:
+  deploy:
+  runs_on: ubuntu-latest
+
+  steps:
+    -name: "Deploy application"
+    run: |
+    echo "Deploying application..."
