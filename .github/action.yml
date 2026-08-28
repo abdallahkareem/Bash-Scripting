@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  actions_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Run action"
+        uses: actions/checkout@v3
